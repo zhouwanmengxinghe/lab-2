@@ -1,0 +1,123 @@
+﻿@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+@font-face {
+    font-family: 'CustomFont1';
+    src: url('cac_champagne.woff') format('woff'),
+         url('cac_champagne.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CustomFont2';
+    src: url('DobkinPlain.woff') format('woff'),
+         url('DobkinPlain.ttf') format('truetype');
+}
+
+body {
+    
+    background-color: #3acfaf; 
+    color: #333; 
+}
+
+
+header {
+   font-family: 'CustomFont2', sans-serif;
+    background-color: rgba(195, 84, 209, 0.616); 
+}
+
+header nav ul {
+    list-style-type: none;
+    display: table-row;
+}
+header nav ul li a:hover {
+    color: #45e3e9; 
+}
+header nav ul li {
+   display: table-cell;
+	text-align: center;
+}
+
+header nav ul li a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+
+section#leftcol {
+  
+    background-color: #000000; 
+}
+
+section#leftcol h1 {
+   font-family: 'CustomFont2', serif;
+    color: #ffffff; 
+}
+
+section#leftcol p {
+    line-height: 1.6;
+    color: #ffffff; 
+}
+
+.notes {  
+   background-color: #faa84a; 
+}  
+.notes li {
+   font-size: 18px;  
+   color: #eeeeee;
+}
+.events {  
+   background-color: #dfdc48;  
+  
+        
+}
+
+ 
+.events h2 {  
+   font-size: 18px;  
+   color: #000000;  
+}  
+ 
+.events p {  
+   font-size: 14px;  
+   color: #999;  
+}
+section#leftcol a:hover {
+    color: #f0e7e3; 
+}
+
+section#rightcol {
+  
+   background-color: #ef86f3; 
+}
+section#rightcol a:hover {
+    color: #ebe1de; 
+}
+section#rightcol h2 {
+    font-family: 'CustomFont1', serif;
+     color: #ffffff; 
+     font-size: 29px; 
+ }
+footer::before {
+    content: "Contact us at: ";
+    font-weight: bold;
+}
+.link-color {
+    color: rgb(86, 185, 243); 
+}
+section#rightcol blockquote p{
+	font-size: 19px;  
+   color: #520758;  
+}
+footer {
+    background-color: #807d7f; 
+}
